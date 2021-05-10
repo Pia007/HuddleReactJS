@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+/* Setting Variables */
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --dk-violet: hsl(257, 43%, 41%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: hsl(256, 100%, 100%);
+
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --fs-sm: .75rem;
+    --fs-reg: .875rem;
+    --fs-med: 2.1875rem;
+    --fs-lg: 2.9375rem;
+    --fw-norm: 400;
+    --fw-pop-bold: 600;
+
+    --radius-rd: 50%;
+    --radius-btn: 3.125rem;
+      
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--poppins);
+    color: var(--white);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: covercode;
+    background-color: var(--violet);
+    padding: 3rem;
+}
+.logo {
+    max-width: 17%;
+}
+.container {
+    display: flex;
+    margin: 3rem auto;
+}
+.mockup img {
+    width: 45%;
+    
+}
+.details {
+    width: 40%;
+    margin: 1rem auto;   
+}
+.details h2 {
+    font-size: var(--fs-lg);
+    font-family: var(--poppins);
+    font-weight: var(--fw-pop-bold);
+    margin: 2rem auto; 
+}
+.details p {
+    font-size: 1.25rem;
+    font-family: var(--open-sans);
+    font-weight: var(--fw-norm);
+    margin: 2.5rem auto;
+    line-height: 1.5; 
+}
+
+.btn {
+    width: 40%;
+    height: 3.25rem;
+    margin-bottom: 8rem;
+    font-size: 1.1rem;
+    font-family: var(--open-sans);
+    border: none;
+    color: var(--violet);
+    border-radius: var(--radius-btn);
+    box-shadow: .275rem .675rem .825rem var(--dk-violet);
+}
+
+.btn:hover {
+    color:white;  
+    background-color: var(--soft-magenta);
+    
+}
+.footer {
+    
+    bottom: 0;
+
+}
+.fab {
+    float: right;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: .09925rem solid var(--white);
+    border-radius: var(--radius-rd);
+    margin-right: 1.5rem; 
+    bottom: 0;
+}
+#fb {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.fab:hover {
+    border-color: 1px solid var(--soft-magenta);
+    color: var(--soft-magenta);
+}
+
+
+/* max-width 992px */
+@media only screen and (max-width: 62em) { 
+    html,
+    body {
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 30%;    
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    .mockup img  {
+        max-width: 100%; 
+        margin: 3rem auto;     
+    }
+    .details {
+        width: 100%;
+        text-align: center;
+        margin: 2rem auto;
+    }
+    .details h2 {
+        font-size: var(--fs-med);
+        margin: 2rem 4rem;
+    }
+
+    .details p {
+        font-size: 1.15rem;
+        margin: 2rem 4rem;
+    }
+    .btn {
+        width: 13rem;
+        height: 2.5rem;
+        font-size: .865rem;
+        margin-bottom: .25rem;
+    }
+    .fab {
+        float: center;
+        font-size: .8125rem;
+        padding: .5rem;
+        border: .09375rem solid var(--white);
+        border-radius: var(--radius-rd);
+    }
+    #fb {
+        padding-left: .65rem;
+        padding-right: .65rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 37.5rem) {
+    html {
+        text-align: center;
+    }
+    body {
+        background-image: url('images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        padding: 0;
+        margin: 1.5rem;
+        text-align: center;
+    }
+    .logo {
+        max-width: 50%;   
+    }
+    .container {
+        display:block;
+        text-align: center;
+    }
+    .container img{
+        max-width: 100% ; 
+    }
+    .details {
+        width:100% ;
+        text-align:center;
+        margin: 2rem auto;
+    }
+    .details h2 {
+        font-size: 1.3rem;
+        margin: 2rem auto;
+    }
+    .details p {
+        font-size: 1rem;
+        margin: 2rem auto;
+    }
+    .btn{
+        max-width: 80%;
+        margin: 2rem auto;
+    }
+    footer {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0; 
+    }
+    .fab {
+        float: none;
+        text-align: center;
+        font-size: .8125rem;
+        margin: 0 1rem 0 0 ;
+        padding: .5rem;
+        border: .09375rem solid var(--white);
+        border-radius: var(--radius-rd);
+    }
+}
