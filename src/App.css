@@ -75,6 +75,7 @@ body {
     font-family: var(--open-sans);
     border: none;
     color: var(--violet);
+    background: var(--white);
     border-radius: var(--radius-btn);
     box-shadow: .275rem .675rem .825rem var(--dk-violet);
 }
