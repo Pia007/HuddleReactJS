@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HuddleReactJS/static/css/main.eae3cd4d.chunk.css",
+    "main.css": "/HuddleReactJS/static/css/main.530edcf1.chunk.css",
     "main.js": "/HuddleReactJS/static/js/main.b7c0e3e6.chunk.js",
     "main.js.map": "/HuddleReactJS/static/js/main.b7c0e3e6.chunk.js.map",
     "runtime-main.js": "/HuddleReactJS/static/js/runtime-main.c8dc390d.js",
@@ -10,7 +10,7 @@
     "static/js/3.75ba3cbd.chunk.js": "/HuddleReactJS/static/js/3.75ba3cbd.chunk.js",
     "static/js/3.75ba3cbd.chunk.js.map": "/HuddleReactJS/static/js/3.75ba3cbd.chunk.js.map",
     "index.html": "/HuddleReactJS/index.html",
-    "static/css/main.eae3cd4d.chunk.css.map": "/HuddleReactJS/static/css/main.eae3cd4d.chunk.css.map",
+    "static/css/main.530edcf1.chunk.css.map": "/HuddleReactJS/static/css/main.530edcf1.chunk.css.map",
     "static/js/2.4097b7c5.chunk.js.LICENSE.txt": "/HuddleReactJS/static/js/2.4097b7c5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/HuddleReactJS/static/media/bg-mobile.41ba0830.svg",
     "static/media/illustration-mockups.264994a5.svg": "/HuddleReactJS/static/media/illustration-mockups.264994a5.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c8dc390d.js",
     "static/js/2.4097b7c5.chunk.js",
-    "static/css/main.eae3cd4d.chunk.css",
+    "static/css/main.530edcf1.chunk.css",
     "static/js/main.b7c0e3e6.chunk.js"
   ]
 }
